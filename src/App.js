@@ -1,35 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-import ImportExport from './components/full adresse';
-import ImportExport2 from './components/full name';
-import Upload from './components/upload image';
+import React from "react";
+import ListUser from "./ListUser";
+import'./App.css'; 
 
 
 
 
 
-function app() {
-return (
-< >
-        <ImportExport2/>
-<Upload/>
-<ImportExport/> 
+function App () {
+return(
 
 
-
-
-
-
-</>
-);
+    <div>
+        <ListUser/>
+    </div>
+)
 
 }
-
-export default app ; 
-
-
-
-
-
-
-
+export default App 
